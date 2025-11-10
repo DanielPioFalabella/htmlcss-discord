@@ -207,7 +207,7 @@ header {
 
 .background-footer-1 {
     height: 325px;
-    background-color: black;
+    background-color: rgb(45, 45, 45);
     display: flex;
     border-bottom: 1px solid rgb(219, 219, 219);
 }
@@ -223,24 +223,24 @@ header {
 
 .section-footer1 {
     flex-basis: 25%;
-    background-color: rgb(255, 120, 120);
-    border: rgb(0, 0, 0) dotted 2px;
+    color: #fff;
 }
 
 .section-footer2 {
     display: flex;
     flex-basis: 75%;
+    color: #fff;
+    font-weight: 400;
+    line-height: 2;
 }
 
 .sub-section1, .sub-section2, .sub-section3, .sub-section4 {
     flex-basis: 25%;
-    background-color: rgb(42, 175, 144);
-    border: white dotted 2px;
 }
 
 .background-footer-2 {
     height: 60px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(45, 45, 45);
     display: flex;
     border-bottom: 1px solid rgb(219, 219, 219);
     align-items: flex-end;
@@ -261,4 +261,23 @@ button {
     border: black dotted 2px;
     font-size: 10px;
     padding: 3px;
+}
+
+.sub-section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.indaco {
+    color: rgb(121, 137, 255);
+}
+
+.lingua img {
+    width: 28px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+.lingua {
+    display: flex;
 }
